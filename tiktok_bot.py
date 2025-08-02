@@ -4,7 +4,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, filters, ContextTypes
 
 # 👉 لێرە تۆکەنەکەت دانێ
-BOT_TOKEN = "TOKEN_HERE"
+BOT_TOKEN = "8376473809:AAGh7qmqIrrZNsW6n01woJTNjerju2k7d0c"
 
 async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     text = update.message.text.strip()
